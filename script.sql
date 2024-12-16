@@ -1,0 +1,20 @@
+1. Select first_name , last_name from customer where location_id > 20 ;
+2. Select first_name , last_name from customer where location_id < 20 ;
+3. Select first_name , last_name from customer where location_id >= 20 ;
+4. Select first_name , last_name from customer where location_id <= 20 ;
+5. Select first_name , last_name from customer where location_id != 20 ;
+6. Select first_name , last_name from customer where location_id = 20 ;
+
+7. Select first_name, last_name, branch_id, location_id  from customer where first_name LIKE '_a%' offset 2;
+8. Select first_name , last_name, branch_id ,location_id from customer where branch_id = 1 AND location_id > 20 ;
+9. Select first_name, last_name, branch_id, location_id from customer where NOT (location_id <= 20);
+10. Select first_name , last_name, branch_id ,location_id from customer where branch_id = 2 OR location_id > 20 ;
+11. Select first_name, last_name, branch_id, location_id  from customer where location_id IN (20,21,23);
+12. Select first_name, last_name, branch_id, location_id  from customer where location_id NOT IN (20,21,23);
+13. Select first_name, last_name, branch_id, location_id  from customer where location_id between 20 and 30;
+14. Select first_name, last_name, branch_id, location_id  from customer where location_id not between 20 and 30;
+15. Select first_name, last_name, branch_id, location_id  from customer where first_name LIKE '_a%';
+16. Select first_name, last_name, branch_id, location_id  from customer where first_name NOT LIKE '_a%';
+17. Select first_name, last_name, branch_id, location_id  from customer where first_name is not Null;
+18. Select first_name, last_name, branch_id, location_id  from customer where first_name is Null;
+19. Select first_name, last_name, branch_id, location_id  from customer where first_name LIKE '_a%' limit 10;
